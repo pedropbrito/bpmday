@@ -16,13 +16,13 @@ const SITE_CONFIG = {
   // Configurações da Integração com Google Workspace
   // Insira aqui a URL do seu Web App publicado no Google Apps Script.
   // Exemplo: "https://script.google.com/macros/s/AKfycbx.../exec"
-  FORM_ENDPOINT: "SEU_GOOGLE_APPS_SCRIPT_URL_AQUI",
+  FORM_ENDPOINT: "https://script.google.com/macros/s/AKfycbxMnyyTL3gowMkfJiGqkhCavL5bT4TOOgVqhnGc0rrhPHfAqYwLsOWqJBOnxiNc1JBZ/exec",
 
   // E-mail do responsável pela captação de patrocinadores (utilizado no e-mail disparado pelo Apps Script)
-  LEAD_EMAIL: "patrocinio@abpmpceara.com.br",
+  LEAD_EMAIL: "pedropbrito@gmail.com",
 
   // Modo de Demonstração (Simulação local quando o FORM_ENDPOINT for placeholder ou estiver offline)
-  DEMO_MODE: true,
+  DEMO_MODE: false,
 
   // Links Institucionais e Redes Sociais (Placeholders editáveis)
   LINKS: {

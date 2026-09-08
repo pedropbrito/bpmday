@@ -18,7 +18,7 @@
  */
 
 // E-mail padrão do responsável pela captação de patrocinadores (altere se necessário)
-var RECIPIENT_EMAIL = "patrocinio@abpmpceara.com.br";
+var RECIPIENT_EMAIL = "pedropbrito@gmail.com";
 
 /**
  * Função responsável por receber as requisições POST enviadas pelo formulário da Landing Page
