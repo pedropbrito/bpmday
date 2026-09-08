@@ -16,7 +16,7 @@ const SITE_CONFIG = {
   // Configurações da Integração com Google Workspace
   // Insira aqui a URL do seu Web App publicado no Google Apps Script.
   // Exemplo: "https://script.google.com/macros/s/AKfycbx.../exec"
-  FORM_ENDPOINT: "https://script.google.com/macros/s/AKfycbwSdmKXayvvYqJqvjPeOMQr7HhrfI1kJi4dNcGI8KI6czbQA11K6RX0hDCoMIwh-ETS/exec",
+  FORM_ENDPOINT: "https://script.google.com/macros/s/AKfycbwImzGue71SOnpdeN6WwOy22ImJswA8nU3efC3gGQ77QfRccHGgG5OWgghHFrs3XDmq/exec",
 
   // E-mail do responsável pela captação de patrocinadores (utilizado no e-mail disparado pelo Apps Script)
   LEAD_EMAIL: "pedropbrito@gmail.com",
