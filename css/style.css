@@ -127,10 +127,12 @@ img {
 }
 
 .abpmp-logo-img {
-  height: 44px;
+  height: 66px;
   width: auto;
   object-fit: contain;
   transition: transform var(--transition-fast);
+  display: block;
+  margin: 0 auto;
 }
 
 .brand-wrapper:hover .abpmp-logo-img {
@@ -156,7 +158,7 @@ img {
 
 @media (min-width: 768px) {
   .abpmp-logo-img {
-    height: 54px;
+    height: 81px;
   }
   .nav-cta-btn {
     display: inline-flex;
@@ -485,6 +487,27 @@ img {
   color: var(--text-muted);
   line-height: 1.6;
 }
+
+.cota-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cota-list li {
+  padding-left: 1.4em;
+  position: relative;
+  margin-bottom: 0.35rem;
+}
+
+.cota-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--gold-primary);
+  font-weight: 700;
+}
+
 
 @media (min-width: 768px) {
   .cotas-grid {
